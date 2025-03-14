@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32</title>
+    <style>
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .header {
+            text-align: center;
+            background: #343953;
+            color: white;
+            padding: 20px;
+            font-size: 40px;
+        }
+        .box {
+            text-align: center;
+        }
+        .two-column {
+            display: flex;
+            margin: 20px 0;
+            gap: 20px;
+        }
+        .two-column .text, .two-column .image {
+            flex: 1;
+            text-align: center;
+        }
+        .two-column img {
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+        .four-column {
+            display: flex;
+            gap: 20px;
+        }
+        .four-column .box {
+            flex: 1;
+            text-align: center;
+        }
+        .four-column img {
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+        @media (max-width: 768px) {
+            .two-column, .four-column {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">ESP32</div>
+        <div class="box">
+            <h2>¿Qué es?</h2>
+            <p> El ESP32 es un microcontrolador de bajo costo y bajo consumo de energía desarrollado por Espressif Systems. Es una de las placas más populares para proyectos de electrónica y programación, especialmente en el ámbito de la Internet de las Cosas (IoT). </p>
+        </div>
+            <div class="box">
+                <h3>Característas</h3>
+                <ul>
+                    <li>Conectividad: Soporta Wi-Fi (802.11 b/g/n) y Bluetooth (Classic y BLE), lo que lo hace ideal para proyectos IoT.</li>
+                    <li>Rendimiento: Cuenta con un procesador de doble núcleo (dual-core) que puede operar a velocidades de hasta 240 MHz, lo que permite un alto rendimiento en tareas complejas.</li>
+                    <li>Entradas y salidas: Dispone de múltiples puertos GPIO, ADC (convertidores analógico a digital), DAC (convertidores digital a analógico), PWM, entre otros, para interactuar con sensores y actuadores.</li>
+                    <li>Bajo consumo energético: Aunque es potente, también tiene modos de bajo consumo para optimizar la duración de la batería en aplicaciones portátiles.</li>
+                    <li>Compatibilidad con plataformas: Es compatible con varias plataformas de desarrollo como Arduino, ESP-IDF (el entorno de desarrollo oficial de Espressif) y MicroPython.</li>
+                </ul>
+    </div>
+
+    <div class="four-column">
+        <div class="box">
+            <h3>ESP32-WROOM-32U</h3>
+            <img src="./acsess/esp32-wroom-32u.jpg" width="5" height="5">
+            <p> Similar al WROOM-32 pero con una diferencia importante: cuenta con un conector para antena externa. Esto mejora el alcance y la estabilidad de la señal de Wi-Fi y Bluetooth.</p>
+        </div>
+        <div class="box">
+            <h3>ESP32-WROVER-B </h3>
+            <img src="./acsess/esp32-wrover-b-wifi-m.jpg" width="5" height="5">
+            <p> Similar al WROVER-32, pero con algunas mejoras en la calidad de la señal y la fiabilidad del chip.</p>
+        </div>
+        <div class="box">
+            <h3>ESP32-S2</h3>
+            <img src="./acsess/61kOiLlaxNL.jpg" width="5" height="5">
+            <p> Un chip de la misma familia, pero con un solo núcleo de procesamiento. Tiene menor consumo energético, lo que lo hace adecuado para dispositivos con batería o aplicaciones que requieren un solo núcleo.</p>
+        </div>
+        <div class="box">
+            <h3>ESP32-H2</h3>
+            <img src="./acsess/esp32-h2-devkitm-1.jpg" width="5" height="5">
+            <p> Diseñado para redes mesh y Zigbee/Thread, ofreciendo opciones para aplicaciones de domótica avanzada.</p>
+        </div>
+    </div>
+    <div class="two-column">
+    </div>
+        </div>
+        <div class="box">
+            <h3>Proyectos</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yWFOZJk02P8?si=feYLAyZzAQTtmNRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UD9Y-Z-p-Tc?si=pcgbWcZJjoToXluW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
